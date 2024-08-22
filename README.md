@@ -8,11 +8,11 @@ Vs code
 
 ## Theory -
 
-## Comparison Table between Call By Value and Call By Refernce   
+## Comparison Table between Call By Value and Call By Reference   
 
 | Feature           | Call By Value                                           | Call By Refernce                                       |
 |-------------------|-------------------------------------------------|----------------------------------------------|
-| *Definition*    | A function receives a copy of the argument's value, not the original data.<br> Changes made within the function affect only the copy and do not alter the original data. | A function receives a reference (or address) to the original argument, allowing it to modify the actual data.<br> Changes made within the function directly affect the original variable. |
+| *Definition*    | A function receives a copy of the argument's value, not the original data.<br> Changes made within the function affect only the copy and do not alter the original data. | A function receives a reference (or address) to the original argument, allowing it to modify the data.<br> Changes made within the function directly affect the original variable. |
 | *Data Passed*          | Copy of the argument's value.         | Address (pointer) to the data. |
 | *Function Modification*    | Does not affect original data.| Does not affect original data. |
 | *Data Size Efficiencys*        | Less efficient for large data.                          | More efficient for large data. |
@@ -125,7 +125,7 @@ int main()
 ### 1. *Call By Value* -
 ![Screenshot 2024-08-22 235724](https://github.com/user-attachments/assets/5598c90a-7bba-4478-ac77-2be970e9ef23)
 ### 2. *Call By Reference* -
-
+![Screenshot 2024-08-22 235942](https://github.com/user-attachments/assets/0a1e435e-8795-44ab-91b2-fec4e35a719b)
 
 ### 3. *Swapping The Values* -
 
