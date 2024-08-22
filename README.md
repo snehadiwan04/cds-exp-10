@@ -129,5 +129,5 @@ int main()
 ![Screenshot 2024-08-22 235942](https://github.com/user-attachments/assets/0a1e435e-8795-44ab-91b2-fec4e35a719b)
 
 ### 3. *Swapping The Values* -
-![Screenshot 2024-08-23 000224](https://github.com/user-attachments/assets/59293827-c161-4d55-81fb-49783eee6c15
+![Screenshot 2024-08-23 000224](https://github.com/user-attachments/assets/59293827-c161-4d55-81fb-49783eee6c15)
 ## Conclusion -
