@@ -123,7 +123,7 @@ int main()
 
 ## Output -
 ### 1. *Call By Value* -
-!
+![Screenshot 2024-08-22 235724](https://github.com/user-attachments/assets/5598c90a-7bba-4478-ac77-2be970e9ef23)
 ### 2. *Call By Reference* -
 
 
