@@ -30,14 +30,14 @@ when a function is called, a copy of the actual argument's value is passed to th
 *Limited Modification:* Functions cannot alter the original argument, which may be limiting for certain operations.
 
 ## Call By Refernce -
-A function receives a reference (or address) to the actual argument rather than a copy of its value.<br><br> This means that the function can directly access and modify the original data stored at that address.<br><br> This method is commonly used in languages like C++.
+A function receives a reference (or address) to the actual argument rather than a copy of its value.<br><br> This means that  the function can directly access and modify the original data stored at that address.<br><br> This method is commonly used in languages like C++.
 
 ### Advantages
 *Performance:* Efficient for large or complex data types since it avoids the cost of copying data.<br>
 *Direct Modifications:* Allows functions to change the argument directly, which is useful for operations like sorting, updating, or modifying objects.
 
 ### Disadvantages
-*Side Effects:* The original data can be altered unexpectedly, which can lead to bugs or unintended behavior if not managed carefully.<br>
+*Side Effects:* The original data can be altered unexpectedly, which leads to bugs or unintended behavior if not managed carefully.<br>
 *Debugging Complexity:* Tracking changes to data through references can be more challenging, as changes affect the original data and not just the function's local copy.
 
 ## codes-
@@ -124,11 +124,10 @@ int main()
 ## Output -
 ### 1. *Call By Value* -
 ![Screenshot 2024-08-22 235724](https://github.com/user-attachments/assets/5598c90a-7bba-4478-ac77-2be970e9ef23)
+
 ### 2. *Call By Reference* -
 ![Screenshot 2024-08-22 235942](https://github.com/user-attachments/assets/0a1e435e-8795-44ab-91b2-fec4e35a719b)
 
 ### 3. *Swapping The Values* -
-
-
-
+![Screenshot 2024-08-23 000224](https://github.com/user-attachments/assets/59293827-c161-4d55-81fb-49783eee6c15
 ## Conclusion -
